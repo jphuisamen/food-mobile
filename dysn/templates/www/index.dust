@@ -1,0 +1,9 @@
+
+{>"base"/}
+{+body}
+  <body>
+<div class="home">
+  hello world
+</div>
+  </body>
+  {/body}

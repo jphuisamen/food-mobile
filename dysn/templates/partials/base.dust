@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/index.css" type="text/css" charset="utf-8">
+    <title>Do You See Now</title>
+  </head>
+    {+body}{/body}
+</html>

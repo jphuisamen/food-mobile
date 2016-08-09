@@ -1,0 +1,8 @@
+.*
+*~
+*.log
+
+node_modules
+
+/aws.json
+/www
