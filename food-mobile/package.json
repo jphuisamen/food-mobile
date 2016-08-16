@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jphuisamen/food-mobile/issues"
   },
-  "homepage": "https://github.com/jphuisamen/food-mobile#readme"
+  "homepage": "https://github.com/jphuisamen/food-mobile#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0"
+  }
 }
