@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jphuisamen/food-mobile#readme",
   "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-es2015": "^1.1.0",
     "gulp": "github:gulpjs/gulp#4.0"
   }
 }
