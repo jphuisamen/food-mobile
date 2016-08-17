@@ -14,7 +14,7 @@
         display: block;
       }
     </style>
-    <app-location route="{{route}}" use-hash-as-path></app-location>
+    <app-location path="{{path }}" route="{{route}}" use-hash-as-path></app-location>
     <app-route
       route="{{route}}"
       pattern="/:page"
@@ -28,8 +28,14 @@
   <script>
     Polymer({
       is: 'app-root',
+      observers: [
+        'pathChange(path)'
+      ],
       ready: function () {
         console.log('Application Ready!')
+      ,}
+      _pathChange: function (path) {
+        this.path = this.path || '/list'
       }
     })
   </script>
