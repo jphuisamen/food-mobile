@@ -2,8 +2,159 @@
 {>"base"/}
 {+body}
   <body>
-<div class="home">
-  hello world
-</div>
+    <div class="body">
+      <div class="banner">
+      <img src="images/banners/banner1.jpg" />
+    </div>
+    <div class="header_panel">
+    <div class="header_list">
+      <ul>
+        <a href="#">home</a>
+        <a href="#">about</>
+        <a href="#">Workshops</>
+        <a href="#">rates</>
+        <a href="#">activities</>
+        <a href="#">maps</a>
+        <a href="#">contact us</a>
+      </ul>
+    </div>
+    <div class="header_name">
+      <h1>Do You See Now</h1>
+    </div>
+  </div>
+
+
+  <div class="about">
+    <h1>About <br> Do You See Now?</h1>
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </p>
+  </div>
+
+
+  <div class="banner">
+    <img src="images/banners/banner2.png" />
+  </div>
+
+
+  <div class="activities">
+    <div class="activity">
+      <h1>Basic Workshop</h1>
+      <div class="actImage">
+        <img src="data:image/jpeg;base64,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" />
+      </div>
+      <p>
+        Start out by learning about 3D modeling and printing basics and combine them to create your own awesome 3D rocket. During the workshop you will design a 3D rocket which you will print to take home with you.
+      </p>
+      <div class="overview">
+        <h1>Overview</h1>
+        <p>
+          Introduction to 3D modeling & 3D printing.
+        </p>
+
+      </div>
+      <div class="outcomes">
+        <h3>Outcomes</h3>
+        <ul>
+          <li>Learn basic 3D modeling commnads and editing tools.</li>
+          <li>Export 3D models for 3D printing.</li>
+          <li>Setup a design to export and print your creation.</li>
+        </ul>
+      </div>
+      <div class="general">
+        <h3>General</h3>
+        <ul>
+          <li>Prerequisites: Basic computer knowledge.</li>
+          <li>Duration: 1 day.</li>
+          <li>Ages: 10+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="bannerIcon">
+    <div class="bannerIcon">
+      <h1>Advanced 3D printing</h1>
+      <img src="http://www.clipartkid.com/images/554/3d-printer-tool-printing-a-car-free-tools-and-utensils-icons-aLmhuR-clipart.png" alt="icon"/>
+    </div> -->
+
+    <div class="banner">
+      <img src="images/banners/banner3.jpg" />
+    </div>
+  </div>
+
+
+  <div class="activities">
+    <div class="activity">
+      <h1>Advanced Workshop</h1>
+      <div class="actImage">
+        <img src="http://previewcf.turbosquid.com/Preview/2014/05/23__20_00_00/RCar_2.jpgc7ebf142-b3c9-421a-86f8-ad58887901e2Larger.jpg" />
+      </div>
+      <p>
+        The participants are facilitated in designing a small rocket-car propelled by an inflated balloon. The workshop consists of 4 X 90min sessions on a weekly basis. We take an in depth look at optimizing modeling tools and printing cost efficient parts to create and assemble a rocket car.
+      </p>
+      <div class="overview">
+        <h1>Overview</h1>
+        <p>
+          Introduction to 3D modeling & 3D printing.
+        </p>
+
+      </div>
+      <div class="outcomes">
+        <h3>Outcomes</h3>
+        <ul>
+          <li>Proficiency with 3D modeling application.</li>
+          <li>Combining editing and 3D modeling tools to achieve intricate designs.</li>
+          <li>3D modeling for assembly.</li>
+          <li>Proficiency with operating a 3D printer.</li>
+          <li>Setting up design for cost effective printing.</li>
+          <li>Assembling 3D printing components</li>
+        </ul>
+      </div>
+      <div class="general">
+        <h3>General Information</h3>
+        <ul>
+          <li>Prerequisites: Basic workshop(Rocket badge)</li>
+          <li>Duration: 4 sessions of 90 min.</li>
+          <li>Ages: 10+</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact_map">
+    <div class="maps">
+      <div class="map">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:440px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://privacypolicygenerator.info">privacy policy example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(-34.35606599999998,18.89291000000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-34.35606599999998,18.89291000000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Guesthouse</strong><br>betty\'s bay , 3479 disa circle<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      </div>
+    </div>
+    <div class="contact">
+      <script type="text/javascript" src="/js/contact.js"></script>
+      <div id="email_header">
+        <h2>Contact Guesthouse for more info:</h2>
+      </div>
+      <div id="email">
+        <form action="emailsent.html" method="GET" enctype="text/plain">
+         <div class="email_subheading">
+           Name:<br>
+         </div>
+        <input type="text" name="name" style="height: 1.75em" required><br>
+         <div class="email_subheading">
+           E-mail:<br>
+         </div>
+        <input type="text" name="mail" style="height: 1.75em" required><br>
+
+         <div class="email_subheading">
+            Comment:<br>
+         </div>
+        <input type="text" id="emailcomment" name="comment" size="60em" style="height: 12em" required><br><br>
+        <div class="Buttons">
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </body>
   {/body}

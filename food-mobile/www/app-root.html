@@ -29,11 +29,8 @@
     Polymer({
       is: 'app-root',
       observers: [
-        'pathChange(path)'
+        '_pathChange(path)'
       ],
-      ready: function () {
-        console.log('Application Ready!')
-      ,}
       _pathChange: function (path) {
         this.path = this.path || '/list'
       }
